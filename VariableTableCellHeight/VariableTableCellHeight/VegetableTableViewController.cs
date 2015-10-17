@@ -12,6 +12,7 @@ namespace VariableTableCellHeight
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            Title = "Vegatables";
             View.BackgroundColor = UIColor.White;
 
             InitializeTableView();
